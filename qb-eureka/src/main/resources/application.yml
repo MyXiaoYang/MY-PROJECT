@@ -7,9 +7,13 @@ server:
 
 
 eureka:
+  instance:
+    hostname: localhost
   client:
-    register-with-eureka: true     #是否将eureka自身作为应用注册到eureka注册中心
-
+    register-with-eureka: false   #鏄惁灏唀ureka鑷韩浣滀负搴旂敤娉ㄥ唽鍒癳ureka娉ㄥ唽涓績  #鍦ㄩ粯璁よ缃笅锛岃鏈嶅姟娉ㄥ唽涓績涔熶細灏嗚嚜宸变綔涓哄鎴风鏉ュ皾璇曟敞鍐屽畠鑷繁锛屾墍浠ユ垜浠渶瑕佺鐢ㄥ畠鐨勫鎴风娉ㄥ唽琛屼负
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka
 
 
 
