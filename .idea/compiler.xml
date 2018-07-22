@@ -7,12 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="qb-client" />
+        <module name="qb-config" />
+        <module name="qb-eureka" />
         <module name="qb-server" />
+        <module name="qb-zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="qb-client" target="1.8" />
+      <module name="qb-config" target="1.8" />
+      <module name="qb-eureka" target="1.8" />
       <module name="qb-server" target="1.8" />
+      <module name="qb-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

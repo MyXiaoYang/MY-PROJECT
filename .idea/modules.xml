@@ -4,7 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/MY-PROJECT.iml" filepath="$PROJECT_DIR$/.idea/MY-PROJECT.iml" />
       <module fileurl="file://$PROJECT_DIR$/qb-client/qb-client.iml" filepath="$PROJECT_DIR$/qb-client/qb-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qb-server/qb-server.iml" filepath="$PROJECT_DIR$/qb-server/qb-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qb-config/qb-config.iml" filepath="$PROJECT_DIR$/qb-config/qb-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qb-eureka/qb-eureka.iml" filepath="$PROJECT_DIR$/qb-eureka/qb-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qb-zuul/qb-zuul.iml" filepath="$PROJECT_DIR$/qb-zuul/qb-zuul.iml" />
     </modules>
   </component>
 </project>
