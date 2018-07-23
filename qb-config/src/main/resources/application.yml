@@ -1,3 +1,6 @@
+server:
+  port: 7777
+
 spring:
   application:
     name: qb-config
@@ -10,8 +13,5 @@ spring:
           default-label: master       # 配置仓库的分支
           username:
           passphrase:
-
-server:
-  port: 7777
 
 

@@ -15,6 +15,9 @@ spring:
       prot: 6379
   cloud:
     config:
+      discovery:
+        enabled: true               #开启配置服务发现
+        service-id: qb-config          #配置服务实例名称
       uri: http://localhost:7777/
       label: master
       profile: dev
