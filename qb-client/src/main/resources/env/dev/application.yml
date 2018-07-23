@@ -13,6 +13,11 @@ spring:
   redis:
       host: 119.23.71.201
       prot: 6379
+  cloud:
+    config:
+      uri: http://localhost:7777/
+      label: master
+      profile: dev
 
 
 eureka:

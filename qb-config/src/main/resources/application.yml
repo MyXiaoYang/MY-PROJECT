@@ -1,6 +1,17 @@
 spring:
   application:
     name: qb-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/forezp/SpringcloudConfig/     #https://github.com/xy-jack/config-server.git
+          search-paths: respo           #配置仓库路径
+          default-label: master       # 配置仓库的分支
+          username:
+          passphrase:
 
 server:
   port: 7777
+
+
