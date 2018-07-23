@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: qb-config
+
+server:
+  port: 7777
