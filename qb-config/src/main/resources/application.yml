@@ -10,8 +10,13 @@ spring:
         git:
           uri: https://github.com/forezp/SpringcloudConfig/     #https://github.com/xy-jack/config-server.git
           search-paths: respo           #配置仓库路径
-          default-label: master       # 配置仓库的分支
-          username:
-          passphrase:
+          label: master       # 配置仓库的分支
+          #username:
+          #passphrase:
+
+
+
+# spring.profiles.active=native   # 自动搜索resources目录下的文件
+# spring.cloud.config.server.native.searchLocations       #指定文件具体位置
 
 
