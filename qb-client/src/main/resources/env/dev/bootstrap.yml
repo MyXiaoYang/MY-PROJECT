@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: qb-client
+    name: config-client
   datasource:
     url:  jdbc:mysql://bdm269683585.my3w.com:3306/bdm269683585?characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull
     username: bdm269683585
