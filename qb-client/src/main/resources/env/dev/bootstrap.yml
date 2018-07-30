@@ -14,12 +14,13 @@ spring:
       prot: 6379
   cloud:
     config:
-      #discovery:
-      #  enabled: true               #开启配置服务发现
-      #  service-id: qb-config          #配置服务实例名称
-      uri: http://localhost:7777/
       label: master         # 远程仓库的分支
-      profile: dev          # 和git里的文件名对应
+      discovery:
+        enabled: true               #开启配置服务发现
+        service-id: qb-config          #配置服务实例名称
+      #uri: http://localhost:7777/
+      #profile: dev          # 和git里的文件名对应
+        name: config-client-dev
 
 
 eureka:
