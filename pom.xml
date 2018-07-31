@@ -9,7 +9,6 @@
 	<packaging>jar</packaging>
 
 	<modules>
-        <module>qb-client</module>
         <module>qb-config</module>
         <module>qb-eureka</module>
         <module>qb-zuul</module>
