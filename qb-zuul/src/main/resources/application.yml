@@ -5,13 +5,19 @@ spring:
   application:
     name: qb-zuul
 
-
 #zuul:
   #routes:
     #test:
       #path: /client/**
       #serviceId: qb-client
       #stripPrefix: false
+  #add-host-header: true          #表示API网关在进行请求路由转发前为请求设置Host头信息。
+  #retryable: true              # 路由重试,   有时候我们不希望所有路由都有重试机制，我们可以配置指定路由进行重试: zuul.routes.<routename>.retryable=true
+
+
+#ribbon:
+#  MaxAutoRetries: 2           #对当前服务的重试次数
+#  MaxAutoRetriesNextServer: 0     #切换相同Server的次数
 
 
 eureka:
@@ -21,3 +27,6 @@ eureka:
 
 
 
+
+
+# 路由熔断  Zuul 目前只支持服务级别的熔断，不支持具体到某个URL进行熔断
