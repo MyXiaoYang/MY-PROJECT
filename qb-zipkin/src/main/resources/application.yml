@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: qb-zipkin
+
+server:
+  port: 8888
+
+eureka:
+  client:
+    serviceUrl:
+      # 服务器注册/获取服务器的zone
+      defaultZone: http://localhost:9999/eureka/
+  instance:
+    prefer-ip-address: true
+
+

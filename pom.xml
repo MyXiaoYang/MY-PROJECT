@@ -12,6 +12,7 @@
         <module>qb-config</module>
         <module>qb-eureka</module>
         <module>qb-zuul</module>
+        <module>qb-zipkin</module>
     </modules>
 
 	<parent>
